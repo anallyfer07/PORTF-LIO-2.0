@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/WhatsApp Image 2025-06-23 at 08.00.21 (1).jpeg" alt="avatar da Anally" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Anally</p>
+        <h1>Eu Aprendo Programação</h1>
+        <p>Sou estudante do Terceiro ano do ensino médio. Estou aprendendo programação usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>MINHAS HABILIDADES</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/WhatsApp Image 2025-06-23 at 12.50.20.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">RECOMENDAÇÕES CINEMÁTICAS</h5>
+                        <p class="card-text">O projeto "Recomendações Cinemáticas" é uma aplicação simples que sugere filmes com base na idade do usuário e na preferência por filmes de fantasia. O usuário insere sua idade e indica se gosta de fantasia, e o sistema, a partir dessas informações, recomenda um filme adequado. Se a idade for 10 anos ou mais, são sugeridos filmes como Milagre na Cela 7 ou A Culpa é das Estrelas, dependendo da faixa etária. Para idades menores que 10, o sistema sugere filmes como Divertidamente ou Minha Mãe é uma Peça, dependendo do gosto por fantasia. O projeto tem como objetivo proporcionar uma recomendação personalizada de filmes de forma prática e rápida.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Screenshot 2025-06-23 13.44.34.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">AUTOCARE+</h5>
+                        <p class="card-text">Este código HTML cria uma página promocional para o serviço AutoCare+, voltado à venda do carro esportivo Nissan GT-R R35. A página apresenta o carro como um sonho acessível, com botões de compra, imagens chamativas e textos que destacam sua potência, desempenho e possibilidade de personalização.
+
+Ela é dividida em seções: uma introdução com chamada de venda, descrições do carro e suas vantagens, uma seção visual sobre personalização, e outra mostrando compatibilidade com dispositivos (como TV, celular e computador). O rodapé inclui links institucionais e dados legais da empresa responsável pelo serviço.
+
+O layout segue um estilo moderno, inspirado em sites de serviços digitais, com foco em atrair o cliente e facilitar a navegação.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Screenshot 2025-06-23 13.52.48.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">ROTA DA CIDADE PERDIDA</h5>
+                        </h5>
+                        <p class="card-text">Este código HTML dá vida a um projeto chamado “Rota da Cidade Perdida”, uma aventura interativa em formato de site. Nele, o usuário assume o papel de um personagem que encontra uma carta misteriosa escondida em um livro da biblioteca da escola. A carta revela pistas sobre a existência de uma cidade perdida, rica em tesouros e belezas naturais, localizada em algum lugar do Brasil.
+
+A narrativa é dividida em etapas chamadas de “passos”, cada uma representando uma parte da história. Apenas um passo é exibido por vez, e o usuário decide os rumos da jornada clicando em botões com diferentes opções. A cada escolha, o caminho muda — é possível iniciar a busca no Rio de Janeiro ou em Pernambuco, explorar igrejas antigas, subir montanhas, seguir rios e até acabar desistindo da missão.
+
+Essas escolhas levam a diferentes finais, incluindo a descoberta da cidade perdida no coração da Amazônia. Um arquivo JavaScript (não incluído no trecho) controla qual passo será mostrado com base nas escolhas do usuário, tornando a navegação fluida e dinâmica.
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">RECOMENDAÇÕES CINEMÁTICAS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Recomendações Cinemáticas" é uma aplicação interativa que tem como objetivo sugerir filmes com base na idade do usuário e em sua preferência por filmes de fantasia. A interface é simples e fácil de usar, composta por dois componentes principais: um campo de entrada para a idade do usuário e uma caixa de seleção que indica se ele gosta de filmes de fantasia. Com essas informações, o código processa os dados e fornece uma recomendação personalizada de filme.</p>
+                    <p>Quando o usuário insere sua idade e seleciona se gosta ou não de fantasia, a função principal do código, chamada geraRecomendacao, analisa esses dados e sugere um filme adequado. Se a idade for 14 anos ou mais, o código sugere o filme "Milagre na Cela 7", que é um drama emocionante. Para usuários entre 10 e 13 anos, a recomendação é "A Culpa é das Estrelas", um romance com elementos emocionais. Se a idade for menor que 10 anos, o sistema verifica a preferência por fantasia: se o usuário gosta de filmes de fantasia, a sugestão é "Divertidamente", um filme de animação infantil. Caso contrário, a recomendação é "Minha Mãe é uma Peça", uma comédia familiar que agrada a públicos de diferentes idades.
+O sistema exibe a recomendação de forma clara e destacada no centro da tela, facilitando a visualização para o usuário. O texto é mostrado em um tom roxo, em tamanho grande, e centralizado, garantindo que a mensagem seja bem visível.</p>
+                    <p>Este projeto oferece uma maneira simples, mas eficaz, de sugerir filmes para diferentes faixas etárias e gostos, com base em critérios básicos. A aplicação pode ser facilmente expandida para incluir mais categorias de filmes, como ação, aventura ou terror, tornando a recomendação ainda mais personalizada. Além disso, seria interessante adicionar funcionalidades como sinopses, trailers ou imagens dos filmes recomendados, para tornar a experiência mais interativa e envolvente. O design também poderia ser aprimorado, com mais recursos visuais, tornando a interface ainda mais atrativa.</p>
+                    <p>Em resumo, o "Recomendações Cinemáticas" é uma aplicação prática e divertida que oferece sugestões de filmes com base na idade e preferências do usuário. A ideia central é proporcionar uma experiência rápida e personalizada, permitindo que os usuários encontrem filmes adequados para diferentes momentos e gostos, com um design simples e direto.
+
+
+
+
+</p>
+                    <img src="img/imagem_450x270.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/0000110839906xsp/full/dxTxBHFjH">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/0000110839906xsp/sketches/dxTxBHFjH">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Anally Barbosa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
